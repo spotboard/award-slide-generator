@@ -1,0 +1,49 @@
+{
+    "groups": {
+        "Seoul National University": "서울대학교",
+        "Korea University": "고려대학교",
+        "Yonsei University": "연세대학교",
+        "Pohang University of Science and Technology": "POSTECH",
+        "Ulsan National Institute of Science and Technology": "UNIST",
+        "Inha University": "인하대학교",
+        "Soongsil University": "숭실대학교",
+        "Sogang University": "서강대학교",
+        "Chung-Ang University": "중앙대학교",
+        "Hanyang University": "한양대학교",
+        "Pusan National University": "부산대학교",
+        "Kookmin University": "국민대학교",
+        "Chungbuk National University": "충북대학교"
+    },
+    "awards": [
+        {
+            "rank": "대상",
+            "icon": "crown_gold",
+            "teams": [70]
+        },
+        {
+            "rank": "금상",
+            "icon": "medal_gold_blue",
+            "teams": [2, 60, 62]
+        },
+        {
+            "rank": "은상",
+            "icon": "medal_silver_green",
+            "teams": [65, 37, 43]
+        },
+        {
+            "rank": "동상",
+            "icon": "medal_bronze_red",
+            "teams": [78, 58, 76, 5]
+        },
+        {
+            "rank": "특별상",
+            "icon": "thumb_up",
+            "teams": [81, 56, 48, 44, 84]
+        },
+        {
+            "rank": "특별상 (a.k.a. 장려상)",
+            "icon": "award_star_bronze_green",
+            "teams": [15, 11, 59]
+        }
+    ]
+}
