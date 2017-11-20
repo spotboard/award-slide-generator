@@ -3,11 +3,19 @@ const {groups, awards} = award;
 
 const contest = require('./contest.json');
 const teamIdToObj = contest.teams.reduce((acc, cur) => {
-    let name = cur.name, group = '';
-    let res = /^(.+) \((.+)\)$/.exec(cur.name);
-    if (res){
-        name = res[1];
-        group = res[2];
+    let name = cur.name, group = cur.group;
+    if (!group){
+        let res = /^([^(]+)\(([^)]*)\)$/.exec(cur.name);
+        if (res){
+            try{
+                name = res[1].trim();
+                group = res[2].trim();
+            }catch(err){
+                group = '';
+            }
+        }else{
+            group = '';
+        }
     }
     if (groups[group])
         group = groups[group];

@@ -18,7 +18,7 @@
     ],
     "teams": [
         { "id": 1, "name": "Nooglers+1 (Ulsan National Institute of Science and Technology)" },
-        { "id": 2, "name": "hYEAHyea (KAIST)" },
+        { "id": 2, "name": "hYEAHyea", "group": "KAIST" },
         { "id": 3, "name": "Flareon (Seoul National University)" },
         { "id": 4, "name": "Codingmothae (Korea Aerospace University)" },
         { "id": 5, "name": "NaHonJaMyWay (Hanyang University)" },
@@ -86,7 +86,7 @@
         { "id": 67, "name": "GENTWIHAN (Kumoh National Institute of Technology)" },
         { "id": 68, "name": "PuzzleC (Kangwon National University)" },
         { "id": 69, "name": "Team_10_deung (Soongsil University)" },
-        { "id": 70, "name": "ACGTeam (Seoul National University)" },
+        { "id": 70, "name": "ACGTeam", "group": "Seoul National University" },
         { "id": 71, "name": "Ghost (Handong Global University)" },
         { "id": 72, "name": "LOGIC (Chosun University)" },
         { "id": 73, "name": "lowpass (Korea University of Technology and Education)" },
